@@ -1,7 +1,9 @@
 require 'csv'
 require 'pry'
-require_relative 'cmu_ipa_mapping'
 
+# Takes the raw CMU dictionary file provided by Cambridge,
+# and writes it to a cleaner CSV in preparation for translation
+# to IPA
 
 CSV.open("assets/CMU_dictionary.csv", "wb") do |csv|
   File.open('assets/CMU_dictionary.txt', 'r') do |f|
