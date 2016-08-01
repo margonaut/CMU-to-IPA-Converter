@@ -13,7 +13,7 @@ CMU_IPA_MAPPING = {
   N: "n",
   NG: "ŋ",
   P: "p",
-  R: "ɹ",
+  R: "r",
   S: "s",
   SH: "ʃ",
   T: "t",
